@@ -1,0 +1,31 @@
+{
+  "baseline_document_hits": 4,
+  "baseline_total": 8,
+  "corpus": "provided reference corpus; external PDFs reparsed locally",
+  "measurements": [
+    {
+      "chunk_size": 1000,
+      "overlap": 200,
+      "chunks": 563,
+      "document_hits": 7,
+      "fact_hits": 7,
+      "total": 8
+    },
+    {
+      "chunk_size": 400,
+      "overlap": 100,
+      "chunks": 1337,
+      "document_hits": 8,
+      "fact_hits": 7,
+      "total": 8
+    },
+    {
+      "chunk_size": 600,
+      "overlap": 150,
+      "chunks": 921,
+      "document_hits": 8,
+      "fact_hits": 7,
+      "total": 8
+    }
+  ]
+}

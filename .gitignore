@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.token_usage.json
+**/qdrant_chunks/
+**/qdrant_storage/
+**/data/sources/ext_gost32601.pdf
+**/data/index_manifest.json
+

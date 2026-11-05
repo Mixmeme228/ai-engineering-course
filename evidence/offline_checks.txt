@@ -1,0 +1,51 @@
+test_fallback_and_double_failure (__main__.Checks.test_fallback_and_double_failure) ... ok
+test_primary_does_not_use_reserve (__main__.Checks.test_primary_does_not_use_reserve) ... ok
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.001s
+
+OK
+Основной провайдер недоступен: 401. Переключаюсь на HuggingFace.
+Основной провайдер недоступен: 401. Переключаюсь на HuggingFace.
+test_canonical_ids (__main__.Checks.test_canonical_ids) ... ok
+test_equipment_optional (__main__.Checks.test_equipment_optional) ... ok
+test_manual_review (__main__.Checks.test_manual_review) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK
+На ручную проверку: Input should be 'регламент', 'доступ', 'инцидент' or 'документация'
+На ручную проверку: Value error, Оборудование 'ГМ-9' отсутствует в реестре
+На ручную проверку: Input should be 'низкий', 'средний' or 'высокий'
+test_chunk_boundaries (__main__.Checks.test_chunk_boundaries) ... ok
+test_filter (__main__.Checks.test_filter) ... ok
+test_pdf_cleanup_and_scan (__main__.Checks.test_pdf_cleanup_and_scan) ... ok
+test_untrusted_generation (__main__.Checks.test_untrusted_generation) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.001s
+
+OK
+test_classification (__main__.Checks.test_classification) ... ok
+test_judge_failure_is_not_ok (__main__.Checks.test_judge_failure_is_not_ok) ... ok
+test_sources_and_gate (__main__.Checks.test_sources_and_gate) ... ok
+test_sweep_restores_baseline_on_failure (__main__.Checks.test_sweep_restores_baseline_on_failure) ... ok
+test_versions_preserve_chunks_and_unrelated_docs (__main__.Checks.test_versions_preserve_chunks_and_unrelated_docs) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.002s
+
+OK
+Размер / перекрытие | чанков | разметка | судья
+test_history_does_not_mutate (__main__.Checks.test_history_does_not_mutate) ... ok
+test_lcel_contract (__main__.Checks.test_lcel_contract) ... ok
+test_parser_uses_position (__main__.Checks.test_parser_uses_position) ... ok
+test_routes_do_not_call_model_when_unnecessary (__main__.Checks.test_routes_do_not_call_model_when_unnecessary) ... ok
+test_rule_regression (__main__.Checks.test_rule_regression) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.016s
+
+OK
+All offline contract checks passed.
