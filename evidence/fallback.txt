@@ -1,0 +1,25 @@
+1. Неверный учебный ключ: прямой вызов основного провайдера
+BadRequestError 400 https://ngw.devices.sberbank.ru:9443/api/v2/oauth: b'{"code":4,"message":"Can\'t decode \'Authorization\' header"}', Headers([('server', 'SynGX'), ('date', 'Thu, 05 Nov 2026 22:25:50 GMT'), ('content-type', 'application/json'), ('content-length', '58'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('vary', 'Access-Control-Request-Method'), ('vary', 'Access-Control-Request-Headers'), ('cache-control', 'no-cache, no-store, max-age=0, must-revalidate'), ('pragma', 'no-cache'), ('expires', '0'), ('x-content-type-options', 'nosniff'), ('strict-transport-security', 'max-age=31536000 ; includeSubDomains'), ('x-frame-options', 'DENY'), ('x-xss-protection', '0'), ('referrer-policy', 'no-referrer'), ('allow', 'GET, POST'), ('strict-transport-security', 'max-age=31536000; includeSubDomains')])
+
+2. Тот же неверный ключ: проверка маршрута через ask_llm
+Основной провайдер недоступен: 400 https://ngw.devices.sberbank.ru:9443/api/v2/oauth: b'{"code":4,"message":"Can\'t decode \'Authorization\' header"}', Headers([('server', 'SynGX'), ('date', 'Thu, 05 Nov 2026 22:25:50 GMT'), ('content-type', 'application/json'), ('content-length', '58'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('vary', 'Access-Control-Request-Method'), ('vary', 'Access-Control-Request-Headers'), ('cache-control', 'no-cache, no-store, max-age=0, must-revalidate'), ('pragma', 'no-cache'), ('expires', '0'), ('x-content-type-options', 'nosniff'), ('strict-transport-security', 'max-age=31536000 ; includeSubDomains'), ('x-frame-options', 'DENY'), ('x-xss-protection', '0'), ('referrer-policy', 'no-referrer'), ('allow', 'GET, POST'), ('strict-transport-security', 'max-age=31536000; includeSubDomains')]). Переключаюсь на HuggingFace.
+APIStatusError Error code: 402
+
+3. Настоящий ключ восстановлен в памяти процесса
+   [токены] GigaChat: +134 (вход: 52, выход: 82)
+GigaChat latency 0.696 tokens 134
+Гипотезы:
+1. Неравномерная нагрузка.
+30% данных
+
+2. Износ подшипников.
+40% данных
+
+3. Неправильная установка или вибрация основания.
+30% данных
+
+Необходимые данные:
+- Частота вибрации (Гц)
+- Амплитуда вибрации (мм)
+- Температуры подшипников
+- Данные с датчиков разгрузки/нагрузки

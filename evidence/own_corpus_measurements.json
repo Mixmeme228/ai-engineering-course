@@ -1,0 +1,54 @@
+{
+  "source": "own real GigaChat generation",
+  "cards": 9,
+  "incidents": 12,
+  "reglaments": 3,
+  "documents": 28,
+  "records": 173,
+  "chunks": 910,
+  "document_hits": 6,
+  "fact_hits": 0,
+  "total": 8,
+  "evaluation_note": "Provided course gold set; missing facts demonstrate changed corpus coverage, not necessarily retrieval errors.",
+  "questions_without_reference_fact": [
+    {
+      "id": "q1",
+      "question": "В какой срок должны устраняться критичные неисправности насосного оборудования?",
+      "missing_fact": "до 1 рабочего дня"
+    },
+    {
+      "id": "q2",
+      "question": "В каком журнале ведётся учёт текущего контроля насосов?",
+      "missing_fact": "РГЛ-ЖУТ-01"
+    },
+    {
+      "id": "q4",
+      "question": "В какой срок нужно сообщить об инциденте на технологической установке?",
+      "missing_fact": "в течение 1 минуты"
+    },
+    {
+      "id": "q5",
+      "question": "За какое время комиссия должна оценить степень опасности инцидента?",
+      "missing_fact": "в течение первых 15 минут"
+    },
+    {
+      "id": "q6",
+      "question": "Какая производительность у магистрального конвейера КМ-101?",
+      "missing_fact": "800 тонн/ч"
+    },
+    {
+      "id": "q7",
+      "question": "Что случилось с реле давления насоса НМ-205?",
+      "missing_fact": "плата реле"
+    },
+    {
+      "id": "q8",
+      "question": "Какие типовые неисправности у гидравлического пресса П-7?",
+      "missing_fact": "Протечка маслосистемы"
+    }
+  ],
+  "generation_usage": {
+    "prompt": 3005,
+    "completion": 5499
+  }
+}

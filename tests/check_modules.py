@@ -119,6 +119,16 @@ elif module == 'module_04':
                 with self.assertRaises(RuntimeError): e.sweep_chunking(object(),object(),'promtech')
                 self.assertEqual((e.ingestion.CHUNK_SIZE,e.ingestion.OVERLAP),(600,150))
                 self.assertEqual(build.call_count,2)
+        def test_judge_repairs_invalid_schema_once(self):
+            valid={'answer_relevance':'high','context_relevance':'low','answer_faithfulness':'high',
+                   'overall_verdict':'refusal_ok','reason':'Контекст не содержит ответа.'}
+            invalid={**valid,'answer_faithfulness':'not_applicable'}
+            response=lambda data:NS(choices=[NS(message=NS(content=json.dumps(data)))])
+            with patch.dict('os.environ',{'GIGACHAT_CREDENTIALS':'test'}), patch.object(e,'GigaChat') as factory:
+                chat=factory.return_value.__enter__.return_value.chat
+                chat.side_effect=[response(invalid),response(valid)]
+                self.assertEqual(e.llm_judge('q','c',r.REFUSAL_TEXT),valid)
+                self.assertEqual(chat.call_count,2)
 
 elif module == 'module_05':
     from langchain_core.messages import AIMessage,HumanMessage

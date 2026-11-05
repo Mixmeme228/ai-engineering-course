@@ -1,0 +1,5 @@
+{
+  "provider": "HuggingFace",
+  "error_type": "APIStatusError",
+  "error": "Error code: 402"
+}

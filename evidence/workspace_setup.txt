@@ -1,0 +1,12 @@
+Python:
+Python 3.11.16
+git version 2.55.0.windows.2
+VS Code:
+1.145.1
+6bab64e2d12b04d04c0d99c27ff166023efd1dda
+x64
+Extensions:
+ms-python.debugpy@2026.6.0
+ms-python.python@2026.10.0
+ms-python.vscode-pylance@2026.4.1
+ms-python.vscode-python-envs@1.42.0

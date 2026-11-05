@@ -1,0 +1,50 @@
+[
+  {
+    "size": 1000,
+    "overlap": 200,
+    "chunks": 563,
+    "markup_ok": 5,
+    "judge_ok": 7,
+    "total": 8
+  },
+  {
+    "size": 600,
+    "overlap": 0,
+    "chunks": 715,
+    "markup_ok": 5,
+    "judge_ok": 7,
+    "total": 8
+  },
+  {
+    "size": 600,
+    "overlap": 150,
+    "chunks": 921,
+    "markup_ok": 6,
+    "judge_ok": 7,
+    "total": 8
+  },
+  {
+    "size": 400,
+    "overlap": 0,
+    "chunks": 1028,
+    "markup_ok": 5,
+    "judge_ok": 6,
+    "total": 8
+  },
+  {
+    "size": 400,
+    "overlap": 100,
+    "chunks": 1337,
+    "markup_ok": 6,
+    "judge_ok": 7,
+    "total": 8
+  },
+  {
+    "size": 300,
+    "overlap": 150,
+    "chunks": 2600,
+    "markup_ok": 4,
+    "judge_ok": 5,
+    "total": 8
+  }
+]

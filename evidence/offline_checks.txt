@@ -12,7 +12,7 @@ test_equipment_optional (__main__.Checks.test_equipment_optional) ... ok
 test_manual_review (__main__.Checks.test_manual_review) ... ok
 
 ----------------------------------------------------------------------
-Ran 3 tests in 0.001s
+Ran 3 tests in 0.010s
 
 OK
 На ручную проверку: Input should be 'регламент', 'доступ', 'инцидент' or 'документация'
@@ -24,17 +24,18 @@ test_pdf_cleanup_and_scan (__main__.Checks.test_pdf_cleanup_and_scan) ... ok
 test_untrusted_generation (__main__.Checks.test_untrusted_generation) ... ok
 
 ----------------------------------------------------------------------
-Ran 4 tests in 0.001s
+Ran 4 tests in 0.002s
 
 OK
 test_classification (__main__.Checks.test_classification) ... ok
 test_judge_failure_is_not_ok (__main__.Checks.test_judge_failure_is_not_ok) ... ok
+test_judge_repairs_invalid_schema_once (__main__.Checks.test_judge_repairs_invalid_schema_once) ... ok
 test_sources_and_gate (__main__.Checks.test_sources_and_gate) ... ok
 test_sweep_restores_baseline_on_failure (__main__.Checks.test_sweep_restores_baseline_on_failure) ... ok
 test_versions_preserve_chunks_and_unrelated_docs (__main__.Checks.test_versions_preserve_chunks_and_unrelated_docs) ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.002s
+Ran 6 tests in 0.004s
 
 OK
 Размер / перекрытие | чанков | разметка | судья
@@ -45,7 +46,7 @@ test_routes_do_not_call_model_when_unnecessary (__main__.Checks.test_routes_do_n
 test_rule_regression (__main__.Checks.test_rule_regression) ... ok
 
 ----------------------------------------------------------------------
-Ran 5 tests in 0.016s
+Ran 5 tests in 0.028s
 
 OK
 All offline contract checks passed.

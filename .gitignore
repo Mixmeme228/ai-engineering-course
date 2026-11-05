@@ -7,7 +7,10 @@ __pycache__/
 .pytest_cache/
 .token_usage.json
 **/qdrant_chunks/
+**/qdrant_own/
 **/qdrant_storage/
 **/data/sources/ext_gost32601.pdf
 **/data/index_manifest.json
+**/data/index_manifest_own.json
+**/*.docx
 
