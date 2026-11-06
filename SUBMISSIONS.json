@@ -1,0 +1,32 @@
+[
+  {
+    "module": 0,
+    "url": "https://github.com/Mixmeme228/ai-engineering-course/pull/1",
+    "draft": true
+  },
+  {
+    "module": 1,
+    "url": "https://github.com/Mixmeme228/ai-engineering-course/pull/2",
+    "draft": true
+  },
+  {
+    "module": 2,
+    "url": "https://github.com/Mixmeme228/ai-engineering-course/pull/3",
+    "draft": false
+  },
+  {
+    "module": 3,
+    "url": "https://github.com/Mixmeme228/ai-engineering-course/pull/4",
+    "draft": false
+  },
+  {
+    "module": 4,
+    "url": "https://github.com/Mixmeme228/ai-engineering-course/pull/5",
+    "draft": false
+  },
+  {
+    "module": 5,
+    "url": "https://github.com/Mixmeme228/ai-engineering-course/pull/6",
+    "draft": false
+  }
+]
